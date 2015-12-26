@@ -1,0 +1,84 @@
+body 	{
+	font-family: Helvetica, sans_serif;
+	text-align: center;
+	background: url(images/two_people_talking.jpeg) no-repeat center center fixed; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+ 	 background-size: cover;
+	
+}
+h3	{
+	font-size: 1.75em;
+}
+
+h6	{
+	font-size: 1.5em;
+}
+
+#index_logo	{
+	margin-top: 1em;
+	font-size: 4em;
+}
+
+#images{
+	background: url(images/two_people_talking.jpeg) no-repeat center center fixed; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+ 	 background-size: cover;
+
+}
+#profile_circle	{
+	background-color: rgba(0,0,0,.2);
+	border-radius: 50%;
+	width: 500px;
+	height: 500px;
+	float: left;
+    position: relative;
+    left: 30%;
+    
+}
+
+#above_fold	{
+	background: url(images/two_people_talking.jpeg) no-repeat center center fixed; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+ 	background-size: cover;
+	text-align: center;
+	float: left;
+    position: relative;
+    left: 35%;
+}
+ 
+#slogan	{
+	padding: 2em, 3em;
+	margin: 3em, 0em, 5em, 0em;
+}
+
+#index_sign_up	{
+	background-color: rgba(0,0,0,.12);
+	border-radius: 5%;
+	width: 200px;
+	height: 30px;
+	float: left;
+    position: relative;
+    left: 22%;
+    padding: .5em;
+    margin: 1em;
+
+}
+
+#index_sign_in	{
+	background-color: rgba(0,0,0,.12);
+	border-radius: 5%;
+	border: rgba(0,0,0,1);
+	width: 200px;
+	height: 30px;
+	float: left;
+    position: relative;
+    left: 22%;
+    padding: .5em;
+    margin: 1em;
+}
