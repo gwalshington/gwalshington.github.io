@@ -23,7 +23,6 @@ footer	{
 }
 
 .footer_nav	{
-
 	color: #B5B5B5;
 	height: 1em;
 }
@@ -35,31 +34,32 @@ footer	{
 	color: #B5B5B5;
 }
 
+#above_fold	{
+	background: url(images/two_people_talking.jpeg) no-repeat center center fixed;
+	/*background-image: url(images/two_people_talking.jpeg); 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;*/
+ 	background-size: cover;
+	text-align: center;
+	padding: 200px;
+	
+}
+
 
 #profile_circle	{
-	background-color: rgba(0,0,0,.2);
+	background: rgba(0,0,0,.2);
 	border-radius: 50%;
 	width: 500px;
 	height: 500px;
 	float: left;
     position: relative;
     left: 30%;
-   	margin-bottom: 5em;
+   	margin-bottom: 2em;
     
 }
 
-#above_fold	{
-	background-image: url(images/two_people_talking.jpeg) no-repeat center center fixed; 
-  		-webkit-background-size: cover;
-  		-moz-background-size: cover;
-  		-o-background-size: cover;
- 	background-size: cover;
-	text-align: center;
-	padding: 200px;
-	/*float: left;
-    position: relative;
-    left: 35%;*/
-}
+
  
 #slogan	{
 	padding: 2em, 3em;
@@ -143,8 +143,5 @@ footer	{
 	float: left;
 	border-radius: 100%;
 }
-
-
-
 
 
