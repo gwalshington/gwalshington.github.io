@@ -1,11 +1,11 @@
 body 	{
 	font-family: Helvetica, sans_serif;
 	text-align: center;
-	/*background: url(images/two_people_talking.jpeg) no-repeat center center fixed; 
+	background: url(images/two_people_talking.jpeg) no-repeat center center fixed; 
   		-webkit-background-size: cover;
   		-moz-background-size: cover;
   		-o-background-size: cover;
- 	 background-size: cover;*/
+ 	 background-size: cover;
 	
 }
 h3	{
@@ -19,7 +19,9 @@ h6	{
 }
 
 footer	{
-
+	background-color: rgba(56, 56, 56, 1);
+	margin: 1em;
+	padding: 2em;
 }
 
 .footer_nav	{
@@ -35,35 +37,38 @@ footer	{
 }
 
 #above_fold	{
-	background: url(images/two_people_talking.jpeg) no-repeat center center fixed;
-	/*background-image: url(images/two_people_talking.jpeg); 
+/*	background: url(images/two_people_talking.jpeg) no-repeat center center fixed;
+*/	/*background-image: url(images/two_people_talking.jpeg); 
   		-webkit-background-size: cover;
   		-moz-background-size: cover;
   		-o-background-size: cover;*/
  	background-size: cover;
 	text-align: center;
-	padding: 200px;
+
 	
 }
 
 
 #profile_circle	{
 	background: rgba(0,0,0,.2);
-	border-radius: 50%;
+	border-radius: 100%;
 	width: 500px;
 	height: 500px;
-	float: left;
+	/*float: left;
     position: relative;
     left: 30%;
    	margin-bottom: 2em;
+    */
+    margin: 2em auto;
+    margin-bottom: 5em;
     
 }
 
 
  
 #slogan	{
-	padding: 2em, 3em;
-	margin: 3em, 0em, 5em, 0em;
+	padding: 10em, 3em;
+	margin: 6em, 0em, 6em, 0em;
 	color: #707070;
 	text-decoration: 
 
@@ -136,6 +141,7 @@ footer	{
 }
 
 .value_circles	{
+	margin-top: 50%;
 	margin: 1em;
 	background: rgba(56, 56, 56, 1);
 	height: 200px;
