@@ -1,13 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 body 	{
 	font-family: Helvetica, sans_serif;
 	text-align: center;
-	background: url(images/two_people_talking.jpeg) no-repeat center center fixed; 
+	/*background: url(images/two_people_talking.jpeg) no-repeat center center fixed; 
   		-webkit-background-size: cover;
   		-moz-background-size: cover;
   		-o-background-size: cover;
- 	 background-size: cover;
+ 	 background-size: cover;*/
 	
 }
+header	{
+	background-color: rgba(56, 56, 56, 1);
+	margin: 0px;
+}
+
+h1	{
+	margin: 0;
+	font-family: Futura, sans-serif;
+	font-weight: bolder;
+}
+
 h3	{
 	font-size: 1.75em;
 	color: rgba(56, 56, 56, 1);
@@ -15,7 +28,12 @@ h3	{
 
 h6	{
 	font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
 	color: rgba(56, 56, 56, 1);
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
 }
 
 footer	{
@@ -38,10 +56,10 @@ footer	{
 
 #above_fold	{
 /*	background: url(images/two_people_talking.jpeg) no-repeat center center fixed;
-*/	/*background-image: url(images/two_people_talking.jpeg); 
+*/	background-image: url(images/two_people_talking.jpeg); 
   		-webkit-background-size: cover;
   		-moz-background-size: cover;
-  		-o-background-size: cover;*/
+  		-o-background-size: cover;
  	background-size: cover;
 	text-align: center;
 
