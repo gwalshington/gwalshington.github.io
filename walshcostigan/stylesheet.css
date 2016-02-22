@@ -1,0 +1,408 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body 	{
+	/*font-family: Helvetica, sans_serif;
+	text-align: center;*/
+	/*background: url(images/two_people_talking.jpeg) no-repeat center center fixed; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+ 	 background-size: cover;*/
+ 	 margin: 0;
+	
+}
+
+#index_body	{
+
+}
+
+a {
+	text-decoration: none;
+	color: rgba(52, 152, 219, 1);
+
+}
+
+header	{
+	display: block;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	/*background-color: rgba(56, 56, 56, 1);
+	margin: 0px;*/
+	
+}
+
+.header	{
+	background-color: rgba(52, 152, 219,1.0);
+	margin: 0;
+	padding: .2em;
+	padding-right: 1em;
+	font-size: 2em;
+	text-align: right;
+	color: rgba(149, 165, 166,1.0)
+
+}
+
+.profile_picture	{
+	height: 7em;
+	width: 7em;
+	border-radius: 100%;
+	overflow: hidden;
+	position: relative;
+	bottom: 1.75em;
+	margin-left: 2em;
+}
+
+h1	{
+	/*margin: 0;
+	font-size: 3em;
+	font-family: Futura, sans-serif;
+	font-weight: "extra-bold";*/
+}
+
+#index_logo	{
+	/*margin: 2em, 5em;*/
+	padding: 3em, 1em;
+	text-align: center;
+	font-size: 5em;
+	color: rgba(127, 140, 141, 1.0);
+	font-family: Montserrat, sans_serif;
+}
+
+#how_it_works	{
+	font-size: 3em;
+	margin-top: 0;
+	border-bottom: 10px solid black;
+	display: inline-block;
+}
+
+
+h3	{
+	font-size: 2em;
+	color: rgba(56, 56, 56, 1);
+}
+
+h4	{
+	color: rgba(56, 56, 56, 1);
+	font-size: 1.5em;
+	text-align: center;
+
+}
+
+
+h6	{
+	/*font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(56, 56, 56, 1);*/
+}
+
+p {
+	/*font-family: 'Montserrat', sans-serif;
+	font-size: 1em;*/
+}
+
+#about_text	{
+	bottom: 30;
+	color: white;
+	background-color: rgba(56, 56, 56, 1);
+	display: inline-block;
+	margin: 1em;
+	padding: 1em 1.5em;
+	/*display: inline;*/
+}
+
+#arrow	{
+	font-size: 45px;
+	margin-top: 0;
+	text-align: center;
+}
+
+footer	{
+	background-color: rgba(56, 56, 56, 1);
+	/*margin: 1em;
+	padding: 2em;*/
+}
+
+.footer_nav	{
+	color: #B5B5B5;
+	height: 1em;
+	text-align: right;
+}
+.container	{
+	margin: 0 12em 1 12em;
+	
+}
+
+.border 	{
+	border-bottom: 5px solid rgba(127, 140, 141, 1.0);
+	margin: 1em 12em 1em 12em;
+
+}
+
+/* DIVS */
+#top_index_wrapper	{
+	background-image: url(images/two_people_talking.jpeg); 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+ 	background-size: cover;
+ 	background-attachment: fixed;
+ 	font-family: Montserrat, sans_serif;
+
+}
+
+#above_fold	{
+	/*min-height: 95%;*/
+}
+
+
+
+#slogan_blue	{
+	padding-top: 3.4em;
+	color: rgba(52, 152, 219, .8);
+	text-align: center;
+	font-size: 1.8em;
+}
+
+#slogan_gray	{
+	/*padding-top: 3.4em;*/
+	color: rgba(56, 56, 56, 1);
+	text-align: center;
+	font-size: 2em;
+	/*background-color: rgba(56, 56, 56, 1);*/
+}
+
+#profile_circle	{
+	background: rgba(189, 195, 199, .4);
+	border-radius: 100%;
+	width: 31em;
+	height: 31em;
+    margin: 3em auto;
+    text-align: center; 
+}
+
+#index_sign_up, #index_sign_in {
+	display: block;
+	border-radius: 2%;
+	margin: 1em 5em;
+	padding: .75em 3em;
+	font-size: 1.5em;
+}
+ 
+ #index_sign_up:hover, 	#index_sign_in:hover, {
+ 	background-color: rgba(52, 152, 219, .5);
+ }
+
+
+#index_sign_up	{
+	background-color: rgba(56, 56, 56, .6);
+	/*background-color: rgba(56, 56, 56, .6);
+	border-radius: 5%;
+	width: 200px;
+	height: 30px;
+	float: left;
+    position: relative;
+    left: 22%;
+    padding: .5em;
+    margin: .75em;*/
+    margin-top: 2em;
+
+}
+
+#index_sign_in	{
+	background-color: rgba(56, 56, 56, .1);
+	/*	border-radius: 5%;
+	border: rgba(0,0,0,1);
+	width: 200px;
+	height: 30px;
+	float: left;
+    position: relative;
+    left: 22%;
+    padding: .5em;
+    margin: .75em;*/
+    boarder
+}
+
+#index_about	{
+/*	background: #92DCE0;*/
+	background: rgba(52, 152, 219,1.0);
+	margin-top: 5em;
+	text-align: center;
+
+	/*height: 50em;
+	width: auto;
+	clear: both;*/
+}
+
+
+#about_column	{
+	display: inline-block;
+	width: 30%;
+}
+
+
+#under_fold	{
+/*	margin-top: 4em;
+	height: 30em;
+	width: 28em;
+	float: left;
+
+	font-size: 14px;
+	color: rgba(56, 56, 56, 1);
+*/
+}
+
+#under_fold_text	{
+	/*height: 30em;
+	width: 40em;
+	float: left;
+	margin: 0em;
+	font-size: 1em;
+	color: rgba(56, 56, 56, 1);*/
+	
+}
+
+#about_img_danny, #about_img_afua {
+	border-radius: 50%;
+	height: 25em;
+	width: 25em;
+	overflow: hidden;
+}
+
+#about_img_danny	{
+	background: url(images/danny.jpg) center; 
+}
+#about_img_afua	{
+	background: url(images/afua.jpg) center; 
+}
+
+#value_props	{
+	background: #3B5998;
+	padding: 8em 0;
+	height: 35em;	
+	color: rgba(56, 56, 56, 1);
+	text-align: center;
+}
+
+.value_props{
+	padding: 1.25em 1em;
+	/*margin: 1em;*/
+	color: #ffff00;
+	line-height: 1.25em;
+	font-size: 2.25em;
+}
+
+.value_circles	{
+	margin: 7em 5em;
+	background: rgba(56, 56, 56, 1);
+	height: 20em;
+	width: 20em;
+	float: left;
+	border-radius: 100%;
+}
+
+.pending_meeting	{
+	border: solid rgba(127, 140, 141,1.0);
+	display: inline-block;
+	border-radius: 5%;
+	padding: .5em 2em;
+
+}
+
+.user_img	{
+	border-radius: 50%;
+	height: 9em;
+	width: 9em;
+	overflow: hidden;
+	display: inline-block;
+	border: solid rgba(127, 140, 141,1.0);
+}
+
+.pending_meeting_info	{
+	display: inline-block;
+	padding: 0em;
+	margin: 0 1em 1em 0;
+	position: absolute;
+	font-family: Montserrat, sans_serif;
+	text-align: right;
+	font-size: 1.2em;
+	line-height: 1.65em;
+
+}
+
+.btn_profile, .nav_profile {
+	background: rgba(52, 152, 219, .5);
+	
+}
+
+.nav_profile, .nav_log_out{
+	border-radius: 2%;
+	margin: .2em 0em 1em 0;
+	padding: .4em 2.5em;
+}
+
+.nav_log_out, .btn_profile, .nav_profile {
+	text-align: center;
+	border: solid rgba(127, 140, 141,1.0);
+	font-size: 1.65em;
+}
+
+.btn_profile	{
+	border-radius: 2%;
+	margin: 1em 0em .5em 0;
+	padding: .40em 1em;
+}
+
+.award_pannel	{
+	display: inline-block;
+	margin: 0 1em 0 10em;
+	position: absolute;
+	float: right;
+	padding: 0 5em;
+}
+
+.profile_nav	{
+	display: inline-block;
+	margin: 0 1em 0 10em;
+	position: absolute;
+	float: right;
+	padding: 0 5em;
+}
+
+
+.nav_log_out	{
+	background: rgba(192, 57, 43, .5)
+
+}
+
+.nav_log_out:hover {
+	background: rgba(192, 57, 43,1.0);
+}
+
+.btn_profile:hover, .nav_profile:hover	{
+	background-color: rgba(52, 152, 219,1.0);
+
+}
+
+.each_match	{
+	/*border: .25em solid rgba(127, 140, 141,1.0);*/
+	margin: 0 2em;
+	text-align: right;
+
+	/*display: inline-block;*/
+	padding: 1em 1em;
+	float: ;
+	display: inline;
+}
+
+.matches	{
+	text-align: center;
+	margin: 0 8em;
+	/*position: absolute;*/
+}
+
+
+
+
+
+
+
