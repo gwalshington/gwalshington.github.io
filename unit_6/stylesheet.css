@@ -26,18 +26,12 @@ a {
 
 header	{
 	display: block;
-	/*margin-bottom: 0;
-	padding-bottom: 0;*/
 	font-family: "Arial Black", Gadget, sans-serif;
 	position: fixed;
 	top: 0;
 	width:100%;
 	background: inherit;
-	z-index: 2;
-	/*#background-color: black;*/
-
-	/*background-color: rgba(56, 56, 56, 1);*/
-	
+	z-index: 2;	
 }
 
 .header	{
@@ -48,13 +42,6 @@ header	{
 	font-size: 2em;
 	text-align: right;
 	color: #7f8c8d;
-	/*-webkit-text-stroke: 1px #bdc3c7;*/
-	/*text-shadow: white;*/
-/*	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-*/	
-
-	
-
 }
 
 .profile_picture	{
@@ -369,7 +356,7 @@ p {
 }
 
 .btn_profile{
-	background: rgba(26, 200, 200, 1.0);
+	background: rgba(200, 240, 241, 1.0);
 	
 }
 
@@ -380,7 +367,7 @@ p {
 
 .nav_log_out, .btn_profile{
 	text-align: center;
-	border: solid rgba(127, 140, 141,1.0);
+	border: solid rgba(127, 140, 141, 1.0);
 	font-size: 1.65em;
 }
 
